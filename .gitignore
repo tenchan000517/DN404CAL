@@ -1,0 +1,13 @@
+.env
+
+version/
+
+hardhat_commands_summary.txt
+
+.anima/
+
+node_modules/
+
+artifacts/
+
+cache/

@@ -1,0 +1,41 @@
+{
+  "name": "my-nft-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^4.9.6",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.2",
+    "hardhat-deploy": "^0.11.37"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "base64-sol": "^1.1.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^8.0.0",
+    "chai-bignumber": "^3.1.0",
+    "contract-allow-list": "^1.0.7",
+    "dn404": "^0.0.12",
+    "erc721psi": "^0.7.0",
+    "hardhat-verify": "^1.0.0",
+    "keccak": "^3.0.3",
+    "keccak256": "^1.0.6",
+    "merkle-tree-solidity": "^1.0.8",
+    "merkletreejs": "^0.3.11",
+    "operator-filter-registry": "^1.4.2",
+    "solady": "^0.0.168"
+  }
+}
